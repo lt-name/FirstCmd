@@ -1,0 +1,7 @@
+name: First_Join_Command
+main: name.namefjc.namefjc
+version: "0.0.1"
+api:
+  - 1.0.0
+load: POSTWORLD
+author: "lt_name"
