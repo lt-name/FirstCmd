@@ -1,6 +1,6 @@
 name: First_Join_Command
-main: name.namefjc.namefjc
-version: "0.0.1"
+main: name.fjcmd.fjcmd
+version: "1.0.0"
 api:
   - 1.0.0
 load: POSTWORLD
