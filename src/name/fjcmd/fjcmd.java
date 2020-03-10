@@ -21,10 +21,8 @@ public class fjcmd extends PluginBase implements Listener {
         saveDefaultConfig();
         this.config1 = new Config(getDataFolder() + "/config.yml", Config.YAML);
         this.cmds = this.config1.getStringList("command");
-        //this.config.put("cmd",config1);
         this.config2 = new Config(getDataFolder() + "/player.yml", Config.YAML);
         this.players = this.config2.getStringList("player");
-        //this.config.put("player",config2);
         getServer().getPluginManager().registerEvents(this,this);
         getLogger().info(TextFormat.GREEN+"加载完成！");
     }
