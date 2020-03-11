@@ -20,8 +20,13 @@ public class delaycmd extends PluginTask<name.fjcmd.fjcmd> {
     @Override
     public void onRun(int i){
         //执行命令
-        for (String cmd : this.cmds) {
-            Server.getInstance().dispatchCommand(new ConsoleCommandSender(), cmd.replace("@p", this.player.getName()));
+        for (String cmds : this.cmds) {
+            String[] cmd = cmds.split("&");
+            if ((cmd.length > 1) && (cmd[1].equals("con"))){
+                Server.getInstance().dispatchCommand(new ConsoleCommandSender(), cmd[0].replace("@p", this.player.getName()));
+            } else {
+                Server.getInstance().dispatchCommand(player, cmd[0].replace("@p", player.getName()));
+            }
         }
         owner.addplayer(this.player);
     }
