@@ -1,4 +1,4 @@
-# First_join_command  
+# FirstCmd 
 #### 功能：
  - [X] 玩家首次进服执行命令
 #### 配置文件： 
