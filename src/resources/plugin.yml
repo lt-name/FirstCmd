@@ -1,4 +1,4 @@
-name: First_Join_Command
+name: FirstCmd
 main: name.fjcmd.fjcmd
 version: "1.0.1"
 api:
