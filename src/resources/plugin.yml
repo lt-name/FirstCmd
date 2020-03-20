@@ -1,4 +1,4 @@
-name: firstcmd
+name: FirstCmd
 main: name.firstcmd.firstcmd
 version: "1.0.1"
 api:

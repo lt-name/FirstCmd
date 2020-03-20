@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe98dd03-8718-4597-ad7a-54739d49df6f" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/nukkit_1_14_b633.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/First_join_command.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/FirstCmd.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/nukkit.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/First_join_command.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FirstCmd.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/fjcmd/fjcmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/firstcmd/firstcmd.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/name/fjcmd/task/delaycmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/firstcmd/Tasks/DelayCmd.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -163,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584100409851</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="1.0.1">
+      <created>1584679666617</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1584679666617</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,13 +184,14 @@
     <MESSAGE value="删除旧版本残留" />
     <MESSAGE value="更新readme" />
     <MESSAGE value="更名" />
-    <option name="LAST_COMMIT_MESSAGE" value="更名" />
+    <MESSAGE value="1.0.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.0.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="326" y="23" key="CommitChangelistDialog2" timestamp="1584100408493">
+    <state x="326" y="23" key="CommitChangelistDialog2" timestamp="1584679664326">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="326" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1584100408493" />
+    <state x="326" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1584679664326" />
     <state x="500" y="170" key="FileChooserDialogImpl" timestamp="1584678836320">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
@@ -199,10 +200,10 @@
       <screen x="0" y="0" width="1440" height="860" />
     </state>
     <state x="200" y="4" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1584679262554" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1584100415752">
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1584679668857">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1584100415752" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1584679668857" />
     <state x="418" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584678811012">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
