@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fe98dd03-8718-4597-ad7a-54739d49df6f" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/nukkit_1_14_b633.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/First_join_command.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/FirstCmd.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/nukkit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/First_join_command.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FirstCmd.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/fjcmd/fjcmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/firstcmd/firstcmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/name/fjcmd/task/delaycmd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/name/firstcmd/Tasks/DelayCmd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +34,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="模块" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../NukkitX/nukkit_1.14_b633.jar!/" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
@@ -38,6 +46,55 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="FirstCmd" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="FirstCmd" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -99,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1584100230506</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更名">
+      <created>1584100409851</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1584100409851</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,17 +187,25 @@
     <option name="LAST_COMMIT_MESSAGE" value="更名" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="326" y="23" key="CommitChangelistDialog2" timestamp="1584100227580">
+    <state x="326" y="23" key="CommitChangelistDialog2" timestamp="1584100408493">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="326" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1584100227580" />
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1584100264147">
+    <state x="326" y="23" key="CommitChangelistDialog2/0.0.1440.860@0.0.1440.860" timestamp="1584100408493" />
+    <state x="500" y="170" key="FileChooserDialogImpl" timestamp="1584678836320">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1584100264147" />
-    <state x="418" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584100384666">
+    <state x="500" y="170" key="FileChooserDialogImpl/0.0.1440.860@0.0.1440.860" timestamp="1584678836320" />
+    <state x="200" y="4" key="SettingsEditor" timestamp="1584679262554">
       <screen x="0" y="0" width="1440" height="860" />
     </state>
-    <state x="418" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584100384666" />
+    <state x="200" y="4" key="SettingsEditor/0.0.1440.860@0.0.1440.860" timestamp="1584679262554" />
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2" timestamp="1584100415752">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="312" y="163" key="Vcs.Push.Dialog.v2/0.0.1440.860@0.0.1440.860" timestamp="1584100415752" />
+    <state x="418" y="254" key="com.intellij.ide.util.TipDialog" timestamp="1584678811012">
+      <screen x="0" y="0" width="1440" height="860" />
+    </state>
+    <state x="418" y="254" key="com.intellij.ide.util.TipDialog/0.0.1440.860@0.0.1440.860" timestamp="1584678811012" />
   </component>
 </project>

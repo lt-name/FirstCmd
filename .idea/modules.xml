@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/First_join_command.iml" filepath="$PROJECT_DIR$/First_join_command.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FirstCmd.iml" filepath="$PROJECT_DIR$/FirstCmd.iml" />
     </modules>
   </component>
 </project>

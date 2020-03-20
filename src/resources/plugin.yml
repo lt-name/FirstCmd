@@ -1,5 +1,5 @@
-name: FirstCmd
-main: name.fjcmd.fjcmd
+name: firstcmd
+main: name.firstcmd.firstcmd
 version: "1.0.1"
 api:
   - 1.0.0

@@ -1,17 +1,19 @@
-package name.fjcmd.task;
+package name.firstcmd.Tasks;
 
 import cn.nukkit.Player;
 import cn.nukkit.Server;
 import cn.nukkit.command.ConsoleCommandSender;
 import cn.nukkit.scheduler.PluginTask;
+import name.firstcmd.firstcmd;
+
 import java.util.List;
 
-public class delaycmd extends PluginTask<name.fjcmd.fjcmd> {
+public class DelayCmd extends PluginTask<firstcmd> {
 
     private Player player;
     private List<String> cmds;
 
-    public delaycmd(name.fjcmd.fjcmd owner, Player player, List<String> cmds) {
+    public DelayCmd(firstcmd owner, Player player, List<String> cmds) {
         super(owner);
         this.player = player;
         this.cmds = cmds;
@@ -28,6 +30,6 @@ public class delaycmd extends PluginTask<name.fjcmd.fjcmd> {
                 Server.getInstance().dispatchCommand(player, cmd[0].replace("@p", player.getName()));
             }
         }
-        owner.addplayer(this.player);
+        owner.addPlayer(this.player);
     }
 }

@@ -1,4 +1,4 @@
-package name.fjcmd;
+package name.firstcmd;
 
 import cn.nukkit.Player;
 import cn.nukkit.event.EventHandler;
@@ -8,18 +8,20 @@ import cn.nukkit.plugin.PluginBase;
 import cn.nukkit.utils.Config;
 import cn.nukkit.utils.TextFormat;
 import java.util.List;
-import name.fjcmd.task.delaycmd;
+import name.firstcmd.Tasks.DelayCmd;
 
-public class fjcmd extends PluginBase implements Listener {
+public class firstcmd extends PluginBase implements Listener {
 
     private Config config1,config2;
     private List<String> cmds;
     private List<String> players;
+    private int delay;
 
     @Override
     public void onEnable() {
         saveDefaultConfig();
         this.config1 = new Config(getDataFolder() + "/config.yml", Config.YAML);
+        this.delay = this.config1.getInt("delay", 100);
         this.cmds = this.config1.getStringList("command");
         this.config2 = new Config(getDataFolder() + "/player.yml", Config.YAML);
         this.players = this.config2.getStringList("player");
@@ -33,7 +35,7 @@ public class fjcmd extends PluginBase implements Listener {
         getLogger().info(TextFormat.RED+"已卸载！");
     }
 
-    public Boolean addplayer(Player player) {
+    public Boolean addPlayer(Player player) {
         this.players.add(player.getName());
         this.config2.set("player", this.players);
         this.config2.save();
@@ -47,7 +49,7 @@ public class fjcmd extends PluginBase implements Listener {
         //首次进服
         if (!this.players.contains(player.getName())) {
             getServer().getScheduler().scheduleDelayedTask(
-                    this, new delaycmd(this, player,this.cmds), config1.getInt("delaycmd", 100));
+                    this, new DelayCmd(this, player,this.cmds), this.delay);
         }
     }
 }
